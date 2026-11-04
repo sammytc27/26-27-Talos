@@ -256,6 +256,12 @@ void opcontrol() {
     // . . .
     // Put more user control code here!
     // . . .
+    if (master.get_digital(DIGITAL_R2))
+      //intake_motors.move(127);
+    else if (master.get_digital(DIGITAL_R1))
+      //intake_motors.move(-127);
+    else
+     //intake_motors.move(0);
 
     pros::delay(ez::util::DELAY_TIME);  // This is used for timer calculations!  Keep this ez::util::DELAY_TIME
   }

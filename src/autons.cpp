@@ -1,4 +1,5 @@
 #include "main.h"
+#include "subsystems.hpp"
 
 /////
 // For installation, upgrading, documentations, and tutorials, check out our website!
@@ -376,3 +377,7 @@ void measure_offsets() {
 // . . .
 // Make your own autonomous functions here!
 // . . .
+void Intake(){
+// intake_motors
+
+}
