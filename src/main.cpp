@@ -276,6 +276,10 @@ void opcontrol() {
     //else if master.get_digital(DIGITAL_DOWN)
     //else
 
+    //Claw
+    //if (master.get_digital(DIGITAL_A)) {
+    //else
+    
     pros::delay(ez::util::DELAY_TIME);  // This is used for timer calculations!  Keep this ez::util::DELAY_TIME
   }
 }
