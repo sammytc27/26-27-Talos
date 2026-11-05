@@ -258,7 +258,7 @@ void opcontrol() {
     // Put more user control code here!
     // . . .
 
-//Intake
+    //Intake
     //if (master.get_digital(DIGITAL_R2))
       //intake_motors.move(127);
     //else if (master.get_digital(DIGITAL_R1))
@@ -266,10 +266,15 @@ void opcontrol() {
     //else
      //intake_motors.move(0);
 
-//Roller Mechcanism
-     //  if (master.get_digital(DIGITAL_L2)) 
-  //  else if (master.get_digital(DIGITAL_L1))
-  //  else
+    //Roller Mechcanism
+    //  if (master.get_digital(DIGITAL_L2)) 
+    //  else if (master.get_digital(DIGITAL_L1))
+    //  else
+
+    //Cascade Lift
+    //if (master.get_digital(DIGITAL_UP))
+    //else if master.get_digital(DIGITAL_DOWN)
+    //else
 
     pros::delay(ez::util::DELAY_TIME);  // This is used for timer calculations!  Keep this ez::util::DELAY_TIME
   }
