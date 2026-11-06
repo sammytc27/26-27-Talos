@@ -10,7 +10,7 @@ extern Drive chassis;
 // inline pros::Motor intake(1);
 // inline pros::adi::DigitalIn limit_switch('A');
 
-inline pros::Motor intake(10);
+    inline pros::Motor intake(10);
 // motor for intake defined
 
 // inline pros::Motor cascadeLift(20);
