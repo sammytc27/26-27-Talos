@@ -275,9 +275,12 @@ void opcontrol() {
       lift.move(0);
 
     //Roller Mechanism
-    //if (master.get_digital(DIGITAL_UP))
-    //else if master.get_digital(DIGITAL_DOWN)
-    //else
+    if (master.get_digital(DIGITAL_UP))
+      rollermech.move(127);
+    else if (master.get_digital(DIGITAL_DOWN))
+      rollermech.move(-127);
+    else
+      rollermech.move(0);
 
     //Claw
     //if (master.get_digital(DIGITAL_A)) {

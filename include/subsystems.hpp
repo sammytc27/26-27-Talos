@@ -15,3 +15,6 @@ inline pros::Motor intake(10);
 
 inline pros::Motor lift(20);
 // motor for the cascadeLift
+
+inline pros::Motor rollermech(11);
+// motor for the roller mechanism
