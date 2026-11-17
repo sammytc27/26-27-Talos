@@ -267,9 +267,12 @@ void opcontrol() {
      intake.move(0);
 
     //Cascade Lift
-    //  if (master.get_digital(DIGITAL_L2)) 
-    //  else if (master.get_digital(DIGITAL_L1))
-    //  else
+    if (master.get_digital(DIGITAL_L2)) 
+      lift.move(127);
+    else if (master.get_digital(DIGITAL_L1))
+      lift.move(-127);
+    else
+      lift.move(0);
 
     //Roller Mechanism
     //if (master.get_digital(DIGITAL_UP))

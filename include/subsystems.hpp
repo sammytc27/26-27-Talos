@@ -13,5 +13,5 @@ extern Drive chassis;
 inline pros::Motor intake(10);
 // motor for intake defined
 
-// inline pros::Motor cascadeLift(20);
+inline pros::Motor lift(20);
 // motor for the cascadeLift
