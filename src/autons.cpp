@@ -377,7 +377,20 @@ void measure_offsets() {
 // . . .
 // Make your own autonomous functions here!
 // . . .
-//void Intake(){
-// intake_motors
+void lowerRed(){
+// if something seen move intake
+//if not 
 
-//}
+}
+
+void upperRed(){
+
+}
+
+void lowerBlue(){
+
+}
+
+void upperBlue(){
+  
+}
